@@ -11,13 +11,13 @@ COLLECTION_NAME = "my_collection"
 class QdrantManager:
     def __init__(self):
         self.client = self._load_qdrant_client()
-        self.gdrant = Qdrant(
+        self.qdrant = Qdrant(
             client=self.client,
             collection_name=COLLECTION_NAME,
             embeddings=OpenAIEmbeddings()
         )
 
-    def _load_gdrant_client(self):
+    def _load_qdrant_client(self):
         client = QdrantClient(host=QDRANT_HOST, port=QDRANT_PORT)
         collections = client.get_collections().collections
         collection_names = [collection.name for collection in collections]
