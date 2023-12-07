@@ -15,7 +15,7 @@ class AskFromScrapedData:
         self.spinner_container = st.empty()
 
         llm = self._create_chat_model()
-        query = st.text_input("Query: ", key="query_input", on_change=self._handle_query, args=(llm,))
+        st.text_input("Query: ", key="query_input", on_change=self._handle_query, args=(llm,))
 
         self._handle_clear_button()
         self._display_costs()
@@ -82,4 +82,4 @@ class AskFromScrapedData:
         total_cost = sum(costs)
         last_cost = costs [-1] if costs else 0
         st.sidebar.markdown(f"**Total cost: ${total_cost:.5f}**")
-        st.sidebar.markdown(f"**Last chat cost: ${last_cost:.5f}**")
+        st.sidebar.markdown(f"**Last cost: ${last_cost:.5f}**")
