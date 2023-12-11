@@ -16,8 +16,10 @@ Webサイトからテキストをスクレイピングし、そのデータを�
 
 ## デモンストレーション
 ### スクレイビイングの結果
+<img width="1624" alt="url_scraping" src="https://github.com/rabitt1ove/custom-chat-gpt/assets/45308877/6e5b8bb4-888f-4211-b764-723b837eaf33">
 
 ### 質問回答の結果
+<img width="1624" alt="ask_from_scraped_data" src="https://github.com/rabitt1ove/custom-chat-gpt/assets/45308877/91bd95a9-acdf-46f6-89be-c4175eb28279">
 
 ## 要件
 - Docker Desktop がインストールされていること
