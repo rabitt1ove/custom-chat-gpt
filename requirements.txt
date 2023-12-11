@@ -1,7 +1,7 @@
 streamlit==1.29.0
-openai==1.3.7
-langchain==0.0.345
+openai==1.3.8
+langchain==0.0.348
 tiktoken==0.5.2
 beautifulsoup4==4.12.2
 requests==2.31.0
-qdrant-client==1.6.9
+qdrant-client==1.7.0
