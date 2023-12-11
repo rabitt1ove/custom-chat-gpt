@@ -20,8 +20,8 @@ Webサイトからテキストをスクレイピングし、そのデータを�
 ### 質問回答の結果
 
 ## 要件
-- Docker Desktop
-- OpenAI API Key を発行
+- Docker Desktop がインストールされていること
+- OpenAI API Key が発行されていること
 
 ## インストール手順
 1. **設定ファイルを作成：**<br>
