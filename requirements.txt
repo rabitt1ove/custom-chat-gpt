@@ -1,6 +1,6 @@
 streamlit==1.29.0
-openai==1.3.8
-langchain==0.0.348
+openai==1.3.9
+langchain==0.0.350
 tiktoken==0.5.2
 beautifulsoup4==4.12.2
 requests==2.31.0
