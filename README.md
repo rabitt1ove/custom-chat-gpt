@@ -16,10 +16,10 @@ Webサイトからテキストをスクレイピングし、そのデータを�
 
 ## デモンストレーション
 ### スクレイビイングの結果
-<img width="1624" alt="url_scraping" src="https://github.com/rabitt1ove/custom-chat-gpt/assets/45308877/6e5b8bb4-888f-4211-b764-723b837eaf33">
+<img width="1512" alt="url_scraping" src="https://github.com/rabitt1ove/custom-chat-gpt/assets/45308877/0d83d21d-0b3e-4e3c-b31d-62e01b1bc00b">
 
 ### 質問回答の結果
-<img width="1624" alt="ask_from_scraped_data" src="https://github.com/rabitt1ove/custom-chat-gpt/assets/45308877/91bd95a9-acdf-46f6-89be-c4175eb28279">
+<img width="1512" alt="ask_from_scraped_data" src="https://github.com/rabitt1ove/custom-chat-gpt/assets/45308877/d418bd2f-c5c5-4510-8469-43cc4580bfe1">
 
 ## システム構成
 - 実行環境: Docker
