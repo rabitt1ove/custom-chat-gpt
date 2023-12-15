@@ -21,6 +21,16 @@ Webサイトからテキストをスクレイピングし、そのデータを�
 ### 質問回答の結果
 <img width="1624" alt="ask_from_scraped_data" src="https://github.com/rabitt1ove/custom-chat-gpt/assets/45308877/91bd95a9-acdf-46f6-89be-c4175eb28279">
 
+## システム構成
+- 実行環境: Docker
+- 言語: Python
+- フロントエンド: Streamlit
+  - PythonベースのWebアプリケーションを迅速に構築するためのフレームワーク
+- バックエンド: LangChain
+  - LLMを用いたアプリケーション開発を支援するライブラリ
+- ベクトルDB: Qdrant
+  - データをベクトル形式で管理し、検索や機械学習の用途に最適化されたDB
+
 ## 要件
 - Docker Desktop がインストールされていること
 - OpenAI API Key が発行されていること
