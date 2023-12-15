@@ -14,10 +14,10 @@ up:
 down:
 	docker-compose down
 
-# Qdrantのデータを参照
-search-db:
-	docker-compose exec web python /app/devtools/search_db.py
+# Qdrantのデータを検索
+search-db: ## make search-db query="検索ワード"
+	docker-compose exec web python /app/devtools/search_db.py "$(query)"
 
-# Qdrantのデータを削除
+# QdrantのCollectionを削除
 delete-db:
 	docker-compose exec web python /app/devtools/delete_db.py

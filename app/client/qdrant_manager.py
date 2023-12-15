@@ -11,7 +11,7 @@ COLLECTION_NAME = "my_collection"
 class QdrantManager:
     def __init__(self):
         self.client = self._load_qdrant_client()
-        self.qdrant = Qdrant(
+        self.qdrantNLP = Qdrant(
             client=self.client,
             collection_name=COLLECTION_NAME,
             embeddings=OpenAIEmbeddings()

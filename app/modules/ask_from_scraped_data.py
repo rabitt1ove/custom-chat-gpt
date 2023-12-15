@@ -56,7 +56,7 @@ class AskFromScrapedData:
                     st.session_state.query_input = ""
 
     def _build_qa_model(self, llm):
-        retriever = self.qdrant_manager.qdrant.as_retriever(search_type="similarity", search_kwargs={"k": 10})
+        retriever = self.qdrant_manager.qdrantNLP.as_retriever(search_type="similarity", search_kwargs={"k": 10})
         return RetrievalQA.from_chain_type(
             llm=llm,
             chain_type="stuff",

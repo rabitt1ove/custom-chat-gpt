@@ -50,4 +50,4 @@ class URLScraping:
         split_text = text_splitter.split_text(url_text)
         for text in split_text:
             st.write(f"Processing text: {text[:50]}...")
-            self.qdrant_manager.qdrant.add_texts([text])
+            self.qdrant_manager.qdrantNLP.add_texts([text])
